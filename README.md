@@ -20,8 +20,8 @@ bun install @bunland/moeban
 Here's a basic example of how to use Moeban:
 
 ```javascript
-const { Moeban } = require("@bunland/moeban");
-
+import { Moeban } from "@bunland/moeban"
+ 
 // Define your data model
 const userModel = new Moeban("example.json", "users");
 
